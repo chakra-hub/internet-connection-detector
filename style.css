@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.offline_{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(250, 44, 44, 0.995);
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+.online_{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(70, 232, 38, 0.995);
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
